@@ -5,6 +5,7 @@ phases:
     commands:
       - chmod 777 ./gradlew
       - ./gradlew assembleDebug
-#artifacts:
-#  files:
+artifacts:
+  files:
 #    - app/build/outputs/apk/app-debug.apk
+     - '**/*'
